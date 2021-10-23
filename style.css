@@ -53,7 +53,7 @@ body {
 
 
 main {
-  background: url(imagens/Mobile_Back.png) no-repeat center/cover;
+  background: url(image/Mobile_Back.png) no-repeat center/cover;
   width:100vw;
   min-height: 812px;
   height: 100vh;
