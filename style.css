@@ -1,0 +1,96 @@
+html, 
+body {
+
+  --black:hsl(240, 6%, 13%)
+  --grey:hsl(240, 9%, 89%);
+  
+
+  height: 100%;
+  font-family:'Roboto', sans-serife;
+  -webkit-font-smoothing: antialiased;
+
+}
+body {
+  display: grid; /*usado para poder usar o place-item center*/
+  place-items: center;
+
+}
+
+.content {
+  max-width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+  color: var(--grey);
+  color:gainsboro;
+
+
+}
+
+.avatar {
+
+  width: 10rem;
+  margin:11.5rem auto 0; /* topo e pe, dir e esq*/
+
+  position: relative;
+}
+.avatar span{
+  
+  position:absolute;
+  top: -15px; 
+  z-index: 1;
+ 
+
+  
+}
+.avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+
+main {
+  background: url(imagens/Mobile_Back.png) no-repeat center/cover;
+  width:100vw;
+  min-height: 812px;
+  height: 100vh;
+
+}
+
+h1{
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+a{
+  color:gainsboro;
+  text-decoration: none;
+  margin-top: 0.25rem;
+
+  /*display:flex;*/
+
+  gap: 0.75rem;
+ 
+  justify-content: center;
+  
+}
+  
+p{
+  margin-top:2rem;
+}
+ul{
+  margin-top: 4rem;
+
+  list-style: none;
+  padding:0;
+
+  display: flex;
+
+  gap: 0.5em;
+
+  justify-content: center;
+
+  
+}
